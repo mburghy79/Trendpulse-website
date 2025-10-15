@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend Pulse - Daily Platform Trends &amp; Monetization Insights</title>
+    <meta name="description" content="Your daily source for high-demand, low-competition opportunities across 8-10 major platforms">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>📊 Trend Pulse</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#archive">Archive</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#subscribe" class="btn btn--primary btn--sm">Subscribe</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Trend Pulse</h1>
+                    <p class="hero-tagline">Daily insights into platform trends &amp; monetization opportunities</p>
+                    <p class="hero-description">Your daily source for high-demand, low-competition opportunities across <strong>8-10 major platforms</strong></p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">2,500+</div>
+                            <div class="stat-label">Subscribers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Daily Reports</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">94%</div>
+                            <div class="stat-label">Accuracy Rate</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-signup">
+                    <div class="signup-card">
+                        <h3>Get Daily Insights</h3>
+                        <p>Join thousands discovering profitable opportunities</p>
+                        <form class="signup-form" id="heroSignupForm">
+                            <input type="email" placeholder="Enter your email" class="form-control" required>
+                            <select class="form-control" required>
+                                <option value="">Choose frequency</option>
+                                <option value="daily">Daily Edition</option>
+                                <option value="weekly">Weekly Summary</option>
+                                <option value="monthly">Monthly Deep Dive</option>
+                            </select>
+                            <button type="submit" class="btn btn--primary btn--full-width">Start Receiving Trends</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Newsletter Preview -->
+    <section class="featured-preview">
+        <div class="container">
+            <h2>Latest Trend Analysis</h2>
+            <div class="preview-grid">
+                <div class="trend-card featured">
+                    <div class="trend-header">
+                        <span class="platform-badge kdp">📚 KDP</span>
+                        <span class="growth-indicator positive">+187%</span>
+                    </div>
+                    <h3>AI-Assisted Historical Fiction</h3>
+                    <p>Historical fiction with AI-generated plot assistance</p>
+                    <div class="trend-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Saturation</span>
+                            <div class="saturation-bar">
+                                <div class="saturation-fill" style="width: 23%"></div>
+                            </div>
+                            <span class="metric-value">23%</span>
+                        </div>
+                        <div class="monetization-tag high">High Monetization</div>
+                    </div>
+                </div>
+
+                <div class="trend-card">
+                    <div class="trend-header">
+                        <span class="platform-badge etsy">🛍️ ETSY</span>
+                        <span class="growth-indicator positive">+92%</span>
+                    </div>
+                    <h3>Customizable Digital Planners</h3>
+                    <p>Interactive PDF planners with customizable elements</p>
+                    <div class="trend-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Saturation</span>
+                            <div class="saturation-bar">
+                                <div class="saturation-fill" style="width: 67%"></div>
+                            </div>
+                            <span class="metric-value">67%</span>
+                        </div>
+                        <div class="monetization-tag medium">Medium Monetization</div>
+                    </div>
+                </div>
+
+                <div class="trend-card">
+                    <div class="trend-header">
+                        <span class="platform-badge instagram">📸 IG</span>
+                        <span class="growth-indicator positive">+156%</span>
+                    </div>
+                    <h3>Behind-the-Scenes Reels</h3>
+                    <p>Authentic process content for businesses</p>
+                    <div class="trend-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Saturation</span>
+                            <div class="saturation-bar">
+                                <div class="saturation-fill" style="width: 45%"></div>
+                            </div>
+                            <span class="metric-value">45%</span>
+                        </div>
+                        <div class="monetization-tag high">High Monetization</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Coverage -->
+    <section class="platform-coverage">
+        <div class="container">
+            <div class="section-header">
+                <h2>Platforms We Track Daily</h2>
+                <p>Comprehensive analysis across the creator economy</p>
+            </div>
+            
+            <div class="platform-grid" id="platformGrid">
+                <!-- Platforms will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Options -->
+    <section id="subscribe" class="newsletter-options">
+        <div class="container">
+            <div class="section-header">
+                <h2>Choose Your Edition</h2>
+                <p>Flexible options to match your workflow</p>
+            </div>
+            
+            <div class="options-grid">
+                <div class="option-card">
+                    <div class="option-header">
+                        <h3>Daily Edition</h3>
+                        <span class="frequency">Every weekday</span>
+                    </div>
+                    <p class="option-description">3-5 trends per platform with detailed analysis</p>
+                    <ul class="feature-list">
+                        <li>Trend analysis &amp; why it works</li>
+                        <li>Monetization potential</li>
+                        <li>Saturation percentages</li>
+                        <li>Actionable implementation steps</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full-width subscribe-btn" data-plan="daily">Choose Daily</button>
+                </div>
+
+                <div class="option-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="option-header">
+                        <h3>Weekly Summary</h3>
+                        <span class="frequency">Every Sunday</span>
+                    </div>
+                    <p class="option-description">Curated top trends across all platforms</p>
+                    <ul class="feature-list">
+                        <li>Week's most promising opportunities</li>
+                        <li>Platform performance comparison</li>
+                        <li>Trend correlation insights</li>
+                        <li>Next week predictions</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full-width subscribe-btn" data-plan="weekly">Choose Weekly</button>
+                </div>
+
+                <div class="option-card">
+                    <div class="option-header">
+                        <h3>Monthly Deep Dive</h3>
+                        <span class="frequency">First of each month</span>
+                    </div>
+                    <p class="option-description">Comprehensive market analysis and forecasting</p>
+                    <ul class="feature-list">
+                        <li>Market saturation analysis</li>
+                        <li>Emerging platform opportunities</li>
+                        <li>Creator economy insights</li>
+                        <li>Strategic planning guidance</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full-width subscribe-btn" data-plan="monthly">Choose Monthly</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Trend Pulse</h2>
+                    <p class="lead">Expert analysis of digital platform trends and monetization opportunities from someone who tracks the creator economy daily.</p>
+                    
+                    <div class="expertise-areas">
+                        <h4>Areas of Expertise:</h4>
+                        <ul>
+                            <li>Digital platform monetization</li>
+                            <li>Social media trend analysis</li>
+                            <li>Multi-platform content strategy</li>
+                            <li>Creator economy insights</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-stats">
+                        <div class="exp-stat">
+                            <strong>2+ years</strong>
+                            <span>of daily trend analysis</span>
+                        </div>
+                        <div class="exp-stat">
+                            <strong>10+ platforms</strong>
+                            <span>tracked daily</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="credibility-card">
+                        <h4>Why Trust Trend Pulse?</h4>
+                        <ul class="credibility-list">
+                            <li>✅ Consistent daily reporting</li>
+                            <li>✅ Data-driven analysis</li>
+                            <li>✅ Platform expertise across multiple verticals</li>
+                            <li>✅ Focus on actionable insights</li>
+                            <li>✅ 94% accuracy rate on trend predictions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Archive -->
+    <section id="archive" class="archive">
+        <div class="container">
+            <div class="section-header">
+                <h2>Newsletter Archive</h2>
+                <p>Browse past issues and insights</p>
+            </div>
+            
+            <div class="archive-filters">
+                <input type="text" placeholder="Search by platform or keyword..." class="form-control search-input" id="archiveSearch">
+                <select class="form-control" id="platformFilter">
+                    <option value="">All Platforms</option>
+                    <option value="kdp">KDP</option>
+                    <option value="etsy">Etsy</option>
+                    <option value="redbubble">Redbubble</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="tiktok">TikTok</option>
+                    <option value="youtube">YouTube</option>
+                    <option value="pinterest">Pinterest</option>
+                    <option value="notion">Notion</option>
+                    <option value="canva">Canva</option>
+                    <option value="courses">Online Courses</option>
+                </select>
+            </div>
+
+            <div class="archive-grid" id="archiveGrid">
+                <!-- Archive items will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>📊 Trend Pulse</h3>
+                    <p>Daily insights into platform trends &amp; monetization opportunities</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#archive">Archive</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#subscribe">Subscribe</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank">Twitter</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                        <a href="#" target="_blank">Email</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trend Pulse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
